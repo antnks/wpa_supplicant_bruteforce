@@ -1,7 +1,12 @@
-wpa_supplicant brutforcer
+wpa_supplicant bruteforcer
 --------------------------
 
 * Build:
 
 cd wpa_supplicant
 make
+
+* Use:
+
+cd wpa_supplicant
+sudo ./bruteforce.sh mynetwork wlan0 passwords.txt
