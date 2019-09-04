@@ -24,10 +24,10 @@ do
 
 	if [ "$4" == "-v" ]; then echo "$line"; fi
 
-	./wpa_passphrase "$NETWORK" "$line" > wpa.conf
+	./wpa_supplicant/wpa_passphrase "$NETWORK" "$line" > wpa.conf
 	#if [ "$4" == "-v" ]; then grep "^\spsk" wpa.conf; fi
 
-	res=`./wpa_supplicant -i "$DEVICE" -c wpa.conf`
+	res=`./wpa_supplicant/wpa_supplicant -i "$DEVICE" -c wpa.conf`
 
 	if [ "$?" == "0" ] && [ "$res" == "1" ]
 	then
