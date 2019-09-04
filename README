@@ -12,3 +12,4 @@ make
 * Use:
 
 sudo ./bruteforce.sh mynetwork wlan0 passwords.txt
+
