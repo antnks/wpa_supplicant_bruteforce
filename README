@@ -8,5 +8,4 @@ make
 
 * Use:
 
-cd wpa_supplicant
 sudo ./bruteforce.sh mynetwork wlan0 passwords.txt
