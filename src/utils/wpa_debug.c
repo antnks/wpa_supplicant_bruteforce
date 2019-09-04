@@ -208,6 +208,7 @@ void wpa_debug_close_linux_tracing(void)
  */
 void wpa_printf(int level, const char *fmt, ...)
 {
+	return;
 	va_list ap;
 
 	va_start(ap, fmt);
