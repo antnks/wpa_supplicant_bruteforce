@@ -1,6 +1,9 @@
 wpa_supplicant bruteforcer
 --------------------------
 
+Online live bruteforcer performs real handshakes with the wireless hotspot to check if the passphrase is valid
+
+
 * Build:
 
 cd wpa_supplicant
