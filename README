@@ -3,7 +3,5 @@ wpa_supplicant brutforcer
 
 * Build:
 
-```
 cd wpa_supplicant
 make
-```
